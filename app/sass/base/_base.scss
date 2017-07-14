@@ -6,4 +6,8 @@ img {
 	max-width: 100%;
 	height: auto;
 }
-body {font-family: $primary_font;}
+body {
+	color: $primary_font_color;
+	font: 400 18px/24px $primary_font;
+	text-align: center;
+}
